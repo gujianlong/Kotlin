@@ -8,7 +8,7 @@ package com.bw.myapplication
  * */
 
 
-class kotlin {
+class kotlinIfElse {
     fun checkFace(score: Int) {
         if (score > 80)
             println("这是一个帅哥")
