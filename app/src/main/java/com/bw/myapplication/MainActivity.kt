@@ -49,17 +49,45 @@ class MainActivity : AppCompatActivity() {
         }
 
         //list
-        var lists= listOf("买面条","买鸡蛋","买辣条")
-        for (list in lists){
+        var lists = listOf("买面条", "买鸡蛋", "买辣条")
+        for (list in lists) {
             println(list)
         }
-        var map =TreeMap<String,String>()
-        map["好"]="good"
+        var map = TreeMap<String, String>()
+        map["好"] = "good"
         println(map)
 
         //阶乘
         val kotlinJieCheng = KotlinJieCheng()
-        var num=BigInteger("100")
+        var num = BigInteger("10")
         println(kotlinJieCheng.fact(num))
+
+        //面向对象入门
+        val kotlinRect = kotlinRect()
+        println("矩形的高度是:${kotlinRect.height}")
+        println("矩形的宽度是:${kotlinRect.width}")
+        println("这位小姐姐的声音很:${kotlinRect.voice}的" + "但是象形很:${kotlinRect.chactor}")
+        //对象具有行为和属性
+        //封装
+        //隐藏内部实现的细节就是封装
+        //继承
+        //继承是指一个对象直接使用另一个对象的属性和方法.
+        //override可以让子类重写父类的方法
+        //open可以让子类继承父类的方法
+        //多态
+        //同种功能,不同表现形态
+        //接口
+        //接口泛指实体把自己提供给外界的一种抽象化物,用以有外界内部
+        //操作分离出外部沟通方法,使其能内部修改而不影响外界其他实体
+        //与其交互的方法
+        //接口和抽象类
+        //接口是事物的能力
+        //抽象类是事物的本质
+        //委托和代理
+        //枚举 (enum)
+        //闭包 (closure)
+        //闭包让函数成为成为编程语言的一等公民
+        //闭包让函数具有对象所具有的能力
+        //闭包让函数具有状态
     }
 }
