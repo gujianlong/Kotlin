@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         //判断字符串
         val kotlinZiFuChuan = KotlinZiFuChuan()
         println(kotlinZiFuChuan.str1 == kotlinZiFuChuan.str2)
-        //第二个参数如果为true就是忽略字母大小写,如果为false就是不忽略字母大小写
+        //equals()第二个参数如果为true就是忽略字母大小写,如果为false就是不忽略字母大小写
         println(kotlinZiFuChuan.str1.equals(kotlinZiFuChuan.str2, true))
 
         //判断空值
@@ -85,9 +85,17 @@ class MainActivity : AppCompatActivity() {
         //抽象类是事物的本质
         //委托和代理
         //枚举 (enum)
+
         //闭包 (closure)
         //闭包让函数成为成为编程语言的一等公民
         //闭包让函数具有对象所具有的能力
         //闭包让函数具有状态
+
+//        函数式编程的优点
+//        简洁,方便理解
+//        方便程序修改和扩展
+        //行为参数化
+        //把筛选的的行为作为参数的传递到过滤器里面
+        //简洁代码,提高效率
     }
 }
